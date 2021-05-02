@@ -1,4 +1,4 @@
-var scheme = 'mss'
+var scheme = 'wss'
 var ws = new WebSocket(scheme + '//echo.websocket.org')
 
 ws.onopen = function(evt){
